@@ -190,6 +190,6 @@ getUpdatedDataManong()
 getUpdatedDataManongNutrient()
 },10000)
 
-// setInterval(() => {
-//   client.publish("test","Hello world")
-// }, 1000);
+setInterval(() => {
+  client.publish("test","Hello world")
+}, 1000);
